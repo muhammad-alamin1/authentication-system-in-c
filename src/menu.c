@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "../include/menu.h"
 #include "../include/admin.h"
+#include "../include/user.h"
 
 void info_screen(void);
 void login_page(void);
@@ -47,6 +48,7 @@ void login_page(void)
             admin_page();
             break;
         case 2:
+            user_panel();
             break;
         case 3:
             exit_screen();
